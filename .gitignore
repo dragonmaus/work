@@ -1,0 +1,9 @@
+*.a
+*.deps
+*.o
+/.redo/
+/bin/*
+/inc/error.h
+/lib/error*.c
+!/bin/*.do
+!/bin/*.sh

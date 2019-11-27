@@ -5,7 +5,9 @@ cat > "$3" <<END
 #ifndef ERROR_H
 #define ERROR_H
 
-extern int errno;
+// extern int errno;
+int *__errno_location(void);
+#define errno (*__errno_location())
 
 END
 

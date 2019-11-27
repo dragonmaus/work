@@ -1,5 +1,6 @@
 *.a
 *.deps
+*.exe
 *.o
 /.redo/
 /bin/*
